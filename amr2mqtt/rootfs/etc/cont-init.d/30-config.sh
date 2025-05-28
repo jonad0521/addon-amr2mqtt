@@ -1,10 +1,10 @@
-#!/usr/bin/with-contenv bashio
+#!/usr/bin/with-contenv bash
 # shellcheck shell=bash
 # ==============================================================================
 # Home Assistant Add-on: AMR2MQTT
 # This validates config and sets up app files/folders
 # ==============================================================================
-
+. /usr/lib/hassio-addons/bashio.sh
 declare host
 declare port
 
